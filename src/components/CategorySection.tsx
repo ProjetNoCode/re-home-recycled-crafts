@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { Lightbulb, Flame, FlowerPot, Home } from "lucide-react";
+import { Lightbulb, Flame, Flower, Home } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const categories = [
@@ -23,7 +23,7 @@ const categories = [
     id: 3,
     title: "Vases",
     description: "Unique vases that give new life to discarded glass and ceramics.",
-    icon: FlowerPot, // Changed from Vase to FlowerPot
+    icon: Flower, // Changed from FlowerPot to Flower
     bgColor: "bg-craft-moss/10",
   },
   {
