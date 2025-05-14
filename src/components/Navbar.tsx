@@ -17,14 +17,14 @@ const Navbar = () => {
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#categories" className="text-craft-earth hover:text-craft-moss transition-colors">Products</a>
-            <a href="#about" className="text-craft-earth hover:text-craft-moss transition-colors">Our Story</a>
-            <a href="#featured" className="text-craft-earth hover:text-craft-moss transition-colors">Featured</a>
+            <a href="#categories" className="text-craft-earth hover:text-craft-moss transition-colors">Produits</a>
+            <a href="#about" className="text-craft-earth hover:text-craft-moss transition-colors">Notre Histoire</a>
+            <a href="#featured" className="text-craft-earth hover:text-craft-moss transition-colors">Nouveautés</a>
             <a href="#contact" className="text-craft-earth hover:text-craft-moss transition-colors">Contact</a>
           </nav>
           
           <div className="hidden md:flex">
-            <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white">Shop Now</Button>
+            <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white">Acheter Maintenant</Button>
           </div>
           
           <div className="md:hidden">
@@ -53,11 +53,11 @@ const Navbar = () => {
         isMenuOpen ? "max-h-64 py-4" : "max-h-0 overflow-hidden py-0"
       )}>
         <div className="container-custom flex flex-col space-y-4 px-4">
-          <a href="#categories" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Products</a>
-          <a href="#about" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Our Story</a>
-          <a href="#featured" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Featured</a>
+          <a href="#categories" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Produits</a>
+          <a href="#about" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Notre Histoire</a>
+          <a href="#featured" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Nouveautés</a>
           <a href="#contact" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Contact</a>
-          <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white w-full" onClick={() => setIsMenuOpen(false)}>Shop Now</Button>
+          <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white w-full" onClick={() => setIsMenuOpen(false)}>Acheter Maintenant</Button>
         </div>
       </div>
     </header>

@@ -7,38 +7,38 @@ import { Button } from "@/components/ui/button";
 const products = [
   {
     id: 1,
-    name: "Amber Glass Table Lamp",
-    description: "Crafted from reclaimed amber glass bottles with a handwoven shade.",
-    price: "$129",
+    name: "Lampe de Table en Verre Ambré",
+    description: "Fabriquée à partir de bouteilles en verre ambré récupérées avec un abat-jour tissé à la main.",
+    price: "129 €",
     image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    category: "Lighting",
+    category: "Éclairage",
     isNew: true,
   },
   {
     id: 2,
-    name: "Driftwood Candle Holder",
-    description: "Shaped from weathered driftwood collected from local beaches.",
-    price: "$49",
+    name: "Bougeoir en Bois Flotté",
+    description: "Façonné à partir de bois flotté récupéré sur les plages locales.",
+    price: "49 €",
     image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    category: "Candles",
+    category: "Bougies",
     isNew: false,
   },
   {
     id: 3,
-    name: "Patchwork Ceramic Vase",
-    description: "A unique vase made from pieces of broken ceramics in beautiful colors.",
-    price: "$85",
+    name: "Vase en Céramique Patchwork",
+    description: "Un vase unique fabriqué à partir de morceaux de céramique brisée aux belles couleurs.",
+    price: "85 €",
     image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "Vases",
     isNew: true,
   },
   {
     id: 4,
-    name: "Recycled Metal Wall Art",
-    description: "Abstract wall art created from salvaged metal pieces with natural patina.",
-    price: "$159",
+    name: "Art Mural en Métal Recyclé",
+    description: "Art mural abstrait créé à partir de pièces métalliques récupérées avec une patine naturelle.",
+    price: "159 €",
     image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    category: "Home Decor",
+    category: "Décoration",
     isNew: false,
   },
 ];
@@ -49,10 +49,10 @@ const FeaturedProducts = () => {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-craft-earth mb-4">
-            Featured Creations
+            Créations Vedettes
           </h2>
           <p className="text-craft-earth/80 max-w-2xl mx-auto">
-            Discover our most popular handcrafted pieces, each one unique and sustainably made.
+            Découvrez nos pièces artisanales les plus populaires, chacune unique et fabriquée de manière durable.
           </p>
         </div>
         
@@ -67,7 +67,7 @@ const FeaturedProducts = () => {
                 />
                 {product.isNew && (
                   <Badge className="absolute top-3 right-3 bg-craft-moss text-white">
-                    New Arrival
+                    Nouveauté
                   </Badge>
                 )}
               </div>
@@ -80,7 +80,7 @@ const FeaturedProducts = () => {
                 <div className="flex justify-between items-center mt-4">
                   <span className="font-medium text-craft-earth">{product.price}</span>
                   <Button variant="outline" className="border-craft-moss text-craft-moss hover:bg-craft-moss hover:text-white">
-                    View Details
+                    Voir Détails
                   </Button>
                 </div>
               </CardContent>
@@ -90,7 +90,7 @@ const FeaturedProducts = () => {
         
         <div className="text-center mt-12">
           <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white px-8">
-            View All Products
+            Voir Tous les Produits
           </Button>
         </div>
       </div>

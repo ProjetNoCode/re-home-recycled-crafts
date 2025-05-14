@@ -7,29 +7,29 @@ import { cn } from "@/lib/utils";
 const categories = [
   {
     id: 1,
-    title: "Lighting",
-    description: "Handcrafted lamps and lighting fixtures that transform any space.",
+    title: "Éclairage",
+    description: "Lampes et luminaires artisanaux qui transforment n'importe quel espace.",
     icon: Lightbulb,
     bgColor: "bg-craft-sage/10",
   },
   {
     id: 2,
-    title: "Candles",
-    description: "Sustainable candle holders made from upcycled materials.",
-    icon: Flame, // Changed from Candle to Flame
+    title: "Bougies",
+    description: "Bougeoirs durables fabriqués à partir de matériaux recyclés.",
+    icon: Flame,
     bgColor: "bg-craft-clay/10",
   },
   {
     id: 3,
     title: "Vases",
-    description: "Unique vases that give new life to discarded glass and ceramics.",
-    icon: Flower, // Changed from FlowerPot to Flower
+    description: "Vases uniques qui donnent une nouvelle vie au verre et à la céramique récupérés.",
+    icon: Flower,
     bgColor: "bg-craft-moss/10",
   },
   {
     id: 4,
-    title: "Home Decor",
-    description: "Accent pieces that add personality to any room in your home.",
+    title: "Décoration",
+    description: "Pièces d'accent qui ajoutent de la personnalité à n'importe quelle pièce de votre maison.",
     icon: Home,
     bgColor: "bg-craft-sand/20",
   },
@@ -41,10 +41,10 @@ const CategorySection = () => {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-craft-earth mb-4">
-            Our Handmade Collections
+            Nos Collections Artisanales
           </h2>
           <p className="text-craft-earth/80 max-w-2xl mx-auto">
-            Every piece is carefully crafted from recycled materials, giving them new purpose and beauty.
+            Chaque pièce est soigneusement fabriquée à partir de matériaux recyclés, leur donnant un nouveau but et une nouvelle beauté.
           </p>
         </div>
         
