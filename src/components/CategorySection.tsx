@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { Lightbulb, Candle, Vase, Home } from "lucide-react";
+import { Lightbulb, Flame, FlowerPot, Home } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const categories = [
@@ -16,14 +16,14 @@ const categories = [
     id: 2,
     title: "Candles",
     description: "Sustainable candle holders made from upcycled materials.",
-    icon: Candle,
+    icon: Flame, // Changed from Candle to Flame
     bgColor: "bg-craft-clay/10",
   },
   {
     id: 3,
     title: "Vases",
     description: "Unique vases that give new life to discarded glass and ceramics.",
-    icon: Vase,
+    icon: FlowerPot, // Changed from Vase to FlowerPot
     bgColor: "bg-craft-moss/10",
   },
   {
