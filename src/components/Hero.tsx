@@ -11,18 +11,18 @@ const Hero = () => {
       <div className="container-custom min-h-[85vh] flex flex-col justify-center relative z-10">
         <div className="max-w-2xl animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-craft-earth mb-6">
-            Handcrafted Beauty From Forgotten Objects
+            Beauté Artisanale à Partir d'Objets Oubliés
           </h1>
           <p className="text-lg md:text-xl text-craft-earth/80 mb-8">
-            Unique, sustainable home decor pieces that breathe new life into recycled materials. 
-            Each item tells a story of transformation and mindful creation.
+            Pièces de décoration uniques et durables qui donnent une nouvelle vie aux matériaux recyclés.
+            Chaque objet raconte une histoire de transformation et de création consciente.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white px-8 py-6 text-lg">
-              Explore Collection
+              Explorer la Collection
             </Button>
             <Button variant="outline" className="border-craft-clay text-craft-earth hover:bg-craft-clay/10 px-8 py-6 text-lg">
-              Our Process
+              Notre Processus
             </Button>
           </div>
         </div>
