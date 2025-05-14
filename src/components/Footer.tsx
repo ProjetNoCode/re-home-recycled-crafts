@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Separator } from "@/components/ui/separator";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Footer = () => {
   return (
@@ -12,6 +13,17 @@ const Footer = () => {
             <p className="text-craft-earth/70 mb-4">
               Bringing new life to discarded objects through sustainable craftsmanship.
             </p>
+            
+            <div className="w-32 mx-auto md:mx-0">
+              <AspectRatio ratio={1} className="bg-white rounded-md overflow-hidden">
+                <img 
+                  src="/lovable-uploads/d943e908-713b-475b-a8d2-90d2fc7b392f.png" 
+                  alt="Scan our QR code" 
+                  className="object-cover"
+                />
+              </AspectRatio>
+              <p className="text-center text-xs mt-2 text-craft-earth/70">Scan to visit our store</p>
+            </div>
           </div>
           
           <div className="md:col-span-1">
