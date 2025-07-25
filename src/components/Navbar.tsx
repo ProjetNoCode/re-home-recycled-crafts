@@ -12,7 +12,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <span className="text-craft-earth font-serif text-xl md:text-2xl font-semibold">Reborn Crafts</span>
+              <img 
+                src="/lovable-uploads/2fc9e376-2918-4bdb-82bf-556008747a61.png" 
+                alt="Façonnette Logo" 
+                className="h-8 md:h-10 w-auto"
+              />
             </a>
           </div>
           
