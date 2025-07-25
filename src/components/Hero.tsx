@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="container-custom min-h-[85vh] flex flex-col justify-center relative z-10">
         <div className="max-w-2xl animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-craft-earth mb-6">
-            Beauté Artisanale à Partir d'Objets Oubliés
+            Des objets uniques faits main pour la déco maison
           </h1>
           <p className="text-lg md:text-xl text-craft-earth/80 mb-8">
             Pièces de décoration uniques et durables qui donnent une nouvelle vie aux matériaux recyclés.
