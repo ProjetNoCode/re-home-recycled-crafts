@@ -24,7 +24,11 @@ const Navbar = () => {
           </nav>
           
           <div className="hidden md:flex">
-            <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white">Acheter Maintenant</Button>
+            <Button asChild className="bg-craft-moss hover:bg-craft-moss/90 text-white">
+              <a href="https://www.etsy.com/shop/faconnette" target="_blank" rel="noopener noreferrer">
+                Acheter Maintenant
+              </a>
+            </Button>
           </div>
           
           <div className="md:hidden">
@@ -57,7 +61,11 @@ const Navbar = () => {
           <a href="#about" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Notre Histoire</a>
           <a href="#featured" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Nouveautés</a>
           <a href="#contact" className="text-craft-earth py-2 border-b border-craft-clay/10" onClick={() => setIsMenuOpen(false)}>Contact</a>
-          <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white w-full" onClick={() => setIsMenuOpen(false)}>Acheter Maintenant</Button>
+          <Button asChild className="bg-craft-moss hover:bg-craft-moss/90 text-white w-full" onClick={() => setIsMenuOpen(false)}>
+            <a href="https://www.etsy.com/shop/faconnette" target="_blank" rel="noopener noreferrer">
+              Acheter Maintenant
+            </a>
+          </Button>
         </div>
       </div>
     </header>

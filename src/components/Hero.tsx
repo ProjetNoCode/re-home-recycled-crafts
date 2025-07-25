@@ -18,8 +18,10 @@ const Hero = () => {
             Chaque objet raconte une histoire de transformation et de création consciente.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white px-8 py-6 text-lg">
-              Explorer la Collection
+            <Button asChild className="bg-craft-moss hover:bg-craft-moss/90 text-white px-8 py-6 text-lg">
+              <a href="https://www.etsy.com/shop/faconnette" target="_blank" rel="noopener noreferrer">
+                Explorer la Collection
+              </a>
             </Button>
             <Button variant="outline" className="border-craft-clay text-craft-earth hover:bg-craft-clay/10 px-8 py-6 text-lg">
               Notre Processus

@@ -79,8 +79,10 @@ const FeaturedProducts = () => {
                 <p className="text-craft-earth/70 text-sm mb-2">{product.description}</p>
                 <div className="flex justify-between items-center mt-4">
                   <span className="font-medium text-craft-earth">{product.price}</span>
-                  <Button variant="outline" className="border-craft-moss text-craft-moss hover:bg-craft-moss hover:text-white">
-                    Voir Détails
+                  <Button asChild variant="outline" className="border-craft-moss text-craft-moss hover:bg-craft-moss hover:text-white">
+                    <a href="https://www.etsy.com/shop/faconnette" target="_blank" rel="noopener noreferrer">
+                      Voir Détails
+                    </a>
                   </Button>
                 </div>
               </CardContent>
@@ -89,8 +91,10 @@ const FeaturedProducts = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button className="bg-craft-moss hover:bg-craft-moss/90 text-white px-8">
-            Voir Tous les Produits
+          <Button asChild className="bg-craft-moss hover:bg-craft-moss/90 text-white px-8">
+            <a href="https://www.etsy.com/shop/faconnette" target="_blank" rel="noopener noreferrer">
+              Voir Tous les Produits
+            </a>
           </Button>
         </div>
       </div>
