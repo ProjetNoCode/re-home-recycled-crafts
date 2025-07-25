@@ -23,8 +23,8 @@ const Hero = () => {
                 Explorer la Collection
               </a>
             </Button>
-            <Button variant="outline" className="border-craft-clay text-craft-earth hover:bg-craft-clay/10 px-8 py-6 text-lg">
-              Notre Processus
+            <Button variant="outline" asChild className="border-craft-clay text-craft-earth hover:bg-craft-clay/10 px-8 py-6 text-lg">
+              <a href="#about">Notre Processus</a>
             </Button>
           </div>
         </div>
