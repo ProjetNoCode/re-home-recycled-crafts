@@ -15,7 +15,7 @@ const Navbar = () => {
               <img 
                 src="/lovable-uploads/2fc9e376-2918-4bdb-82bf-556008747a61.png" 
                 alt="Façonnette Logo" 
-                className="h-8 md:h-10 w-auto"
+                className="h-8 md:h-10 w-auto opacity-80"
               />
             </a>
           </div>
